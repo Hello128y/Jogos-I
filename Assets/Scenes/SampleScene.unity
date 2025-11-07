@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::controlepersonagem
   moveSpeed: 5
-  jumpForce: 10
+  jumpForce: 20
   groundCheck: {fileID: 1399790428}
   groundLayer:
     serializedVersion: 2

@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            visual.localScale = new Vector3(-0.9f, 0.9f, 0.9f);
+            visual.localScale = new Vector3(-4, 4, 4);
         }
 
         if (Input.GetButtonDown("Jump") && isGrounded)

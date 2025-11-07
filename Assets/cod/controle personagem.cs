@@ -17,18 +17,12 @@ public class PlayerMovement : MonoBehaviour
         anim = visual.GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        movex = Input.GetAxisRaw("Horizontal");
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
-
-        anim.SetBool("run", Mathf.Abs(movex) > 0f && isGrounded);
-        if (movex > 0.01f)
+    void FixedUpdate(){
+        if (rb2d.linearVelocity.x > 0.01f)
         {
             visual.localScale = new Vector3(4, 4, 4);
         }
-        else if(movex < -0.01f)
+        else if(rb2d.linearVelocity.x < -0.01f)
         {
             visual.localScale = new Vector3(-4, 4, 4);
         }
@@ -36,6 +30,16 @@ public class PlayerMovement : MonoBehaviour
         {
             visual.localScale = new Vector3(-0.9f, 0.9f, 0.9f);
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        movex = Input.GetAxisRaw("Horizontal");
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+
+        anim.SetBool("run", Mathf.Abs(movex) > 0f && isGrounded);
+        
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {

@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 0b337b27d3bb53f45afe5f50aa91349f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2130650131657009375
+    second: cao.bom_0
+  - first:
+      213: -6950775789168418208
+    second: cao.bom_1
+  - first:
+      213: 143855086529326560
+    second: cao.bom_2
+  - first:
+      213: -1417266679672160181
+    second: cao.bom_3
+  - first:
+      213: -944216232827025089
+    second: cao.bom_4
+  - first:
+      213: -1159708498973653381
+    second: cao.bom_5
+  - first:
+      213: 1945078492818927281
+    second: cao.bom_6
+  - first:
+      213: -42816071804985634
+    second: cao.bom_7
+  - first:
+      213: -5508039423783415928
+    second: cao.bom_8
+  - first:
+      213: -8682496528344450836
+    second: cao.bom_9
+  - first:
+      213: -5780745165008898333
+    second: cao.bom_10
+  - first:
+      213: -7533470544945795439
+    second: cao.bom_11
+  - first:
+      213: 1119572405427431434
+    second: cao.bom_12
+  - first:
+      213: 4405139188767364846
+    second: cao.bom_13
+  - first:
+      213: -7576337128650125229
+    second: cao.bom_14
+  - first:
+      213: 7855976676724369016
+    second: cao.bom_15
+  - first:
+      213: -3477683769167127302
+    second: cao.bom_16
+  - first:
+      213: -6572838887043427006
+    second: cao.bom_17
+  - first:
+      213: -6150091354213283088
+    second: cao.bom_18
+  - first:
+      213: 6305100352613226514
+    second: cao.bom_19
+  - first:
+      213: -3357951443356357079
+    second: cao.bom_20
+  - first:
+      213: -3534621125478904419
+    second: cao.bom_21
+  - first:
+      213: -8214219924107933469
+    second: cao.bom_22
+  - first:
+      213: -3207091884919513616
+    second: cao.bom_23
+  - first:
+      213: -1613403803402436417
+    second: cao.bom_24
+  - first:
+      213: 4246304926669177115
+    second: cao.bom_25
+  - first:
+      213: 6403796682439720063
+    second: cao.bom_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cao.bom_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 590
+        width: 1862
+        height: 741
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd82e0e8107919d10800000000000000
+      internalID: 2130650131657009375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_1
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1317
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0622b3d1f32e98f90800000000000000
+      internalID: -6950775789168418208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 587
+        width: 1750
+        height: 737
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eda6b360731ff100800000000000000
+      internalID: 143855086529326560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_3
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1285
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40c42eb67bd45ce0800000000000000
+      internalID: -1417266679672160181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_4
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 215
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f390033c65875e2f0800000000000000
+      internalID: -944216232827025089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_5
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 248
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b768cabb343e7efe0800000000000000
+      internalID: -1159708498973653381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_6
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 215
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be69b0759e4efa10800000000000000
+      internalID: 1945078492818927281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_7
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 214
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eded2617203e76ff0800000000000000
+      internalID: -42816071804985634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_8
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 215
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fca80b3538f83b0800000000000000
+      internalID: -5508039423783415928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_9
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 248
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce87778c863918780800000000000000
+      internalID: -8682496528344450836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_10
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 215
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6769e66eaa6cfa0800000000000000
+      internalID: -5780745165008898333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_11
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 214
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e23a2147cb37790800000000000000
+      internalID: -7533470544945795439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_12
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 215
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08e4d5cb25898f00800000000000000
+      internalID: 1119572405427431434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_13
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 134
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee691a4b0c2322d30800000000000000
+      internalID: 4405139188767364846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_14
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 133
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350d43cc5817bd690800000000000000
+      internalID: -7576337128650125229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_15
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 133
+        width: 124
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876e8eb2a29060d60800000000000000
+      internalID: 7855976676724369016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_16
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 134
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcd6a99909ccbfc0800000000000000
+      internalID: -3477683769167127302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_17
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 134
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24517eb4bd598c4a0800000000000000
+      internalID: -6572838887043427006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_18
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 133
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa8ae77f7c76aaa0800000000000000
+      internalID: -6150091354213283088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_19
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 134
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21893b66d57308750800000000000000
+      internalID: 6305100352613226514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_20
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 133
+        width: 99
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92eebb514f82661d0800000000000000
+      internalID: -3357951443356357079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_21
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 134
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d0d3840d082fec0800000000000000
+      internalID: -3534621125478904419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_22
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 133
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e84c94ff7a310e80800000000000000
+      internalID: -8214219924107933469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_23
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 133
+        width: 108
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd955d2cee1e73d0800000000000000
+      internalID: -3207091884919513616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_24
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 134
+        width: 13
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb00feaf9c90c99e0800000000000000
+      internalID: -1613403803402436417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_25
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 133
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b118b1a35d7edea30800000000000000
+      internalID: 4246304926669177115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cao.bom_26
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 133
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7cf4a6672bded850800000000000000
+      internalID: 6403796682439720063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 66665518422a922468b4fedc1fc6aa61
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cao.bom_0: 2130650131657009375
+      cao.bom_1: -6950775789168418208
+      cao.bom_10: -5780745165008898333
+      cao.bom_11: -7533470544945795439
+      cao.bom_12: 1119572405427431434
+      cao.bom_13: 4405139188767364846
+      cao.bom_14: -7576337128650125229
+      cao.bom_15: 7855976676724369016
+      cao.bom_16: -3477683769167127302
+      cao.bom_17: -6572838887043427006
+      cao.bom_18: -6150091354213283088
+      cao.bom_19: 6305100352613226514
+      cao.bom_2: 143855086529326560
+      cao.bom_20: -3357951443356357079
+      cao.bom_21: -3534621125478904419
+      cao.bom_22: -8214219924107933469
+      cao.bom_23: -3207091884919513616
+      cao.bom_24: -1613403803402436417
+      cao.bom_25: 4246304926669177115
+      cao.bom_26: 6403796682439720063
+      cao.bom_3: -1417266679672160181
+      cao.bom_4: -944216232827025089
+      cao.bom_5: -1159708498973653381
+      cao.bom_6: 1945078492818927281
+      cao.bom_7: -42816071804985634
+      cao.bom_8: -5508039423783415928
+      cao.bom_9: -8682496528344450836
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

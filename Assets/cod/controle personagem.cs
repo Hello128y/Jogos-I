@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     public Transform visual;
     private Animator anim;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+   
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    // Update is called once per frame
+    
     void Update()
     {
         movex = Input.GetAxisRaw("Horizontal");
@@ -27,15 +27,15 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("run", Mathf.Abs(movex) > 0f && isGrounded);
         if (rb2d.linearVelocity.x > 0.01f)
         {
-            visual.localScale = new Vector3(4, 4, 4);
+            visual.localScale = new Vector3(5, 5, 5);
         }
         else if(rb2d.linearVelocity.x < -0.01f)
         {
-            visual.localScale = new Vector3(-4, 4, 4);
+            visual.localScale = new Vector3(-5, 5, 5);
         }
         else
         {
-            visual.localScale = new Vector3(-4, 4, 4);
+            visual.localScale = new Vector3(-5, 5, 5);
         }
 
         if (Input.GetButtonDown("Jump") && isGrounded)

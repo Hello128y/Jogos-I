@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class PlayerHeath : MonoBehaviour
 {
     public float maxHealth = 100f;

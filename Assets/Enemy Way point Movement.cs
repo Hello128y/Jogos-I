@@ -17,7 +17,7 @@ public class EnemyWaypointMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private float lastAttackTime;
-    public transform visual;
+    public Transform visual;
     private int currentWaypointIndex = 0;
     private Vector2 movementDirection;
     
@@ -26,7 +26,7 @@ public class EnemyWaypointMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        // Validate that we have waypoints
+    
         if (waypoints == null || waypoints.Count == 0)
         {
             Debug.LogError("No waypoints assigned to the enemy!");
@@ -34,7 +34,6 @@ public class EnemyWaypointMovement : MonoBehaviour
             return;
         }
 
-        // Start moving towards the first waypoint
         SetTargetWaypoint(currentWaypointIndex);
     }
  void Update()

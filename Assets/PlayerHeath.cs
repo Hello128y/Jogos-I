@@ -3,7 +3,7 @@ public class PlayerHeath : MonoBehaviour
 {
     public float maxHealth = 100f;
     public float currentHealth;
-
+    public HealthBar healthBar;
     private Rigidbody2D rb;
 
     void Start()

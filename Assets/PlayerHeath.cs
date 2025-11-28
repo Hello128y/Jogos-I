@@ -17,6 +17,9 @@ public class PlayerHeath : MonoBehaviour
         currentHealth -= damage;
         Debug.Log("Player levou dano! Vida atual: " + currentHealth);
 
+        healthBar.UpdateHealthBar(currentHealth, maxHealth);
+
+
         // Aplica knockback
         rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
 

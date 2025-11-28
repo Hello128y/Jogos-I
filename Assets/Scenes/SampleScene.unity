@@ -1847,6 +1847,7 @@ GameObject:
   - component: {fileID: 508807183}
   - component: {fileID: 508807185}
   - component: {fileID: 508807184}
+  - component: {fileID: 508807186}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -1911,6 +1912,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508807182}
   m_CullTransparentMesh: 1
+--- !u!114 &508807186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508807182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26657a2788c7f6d43856b4d5f731a8bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthBar
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2306,6 +2319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHeath
   maxHealth: 100
   currentHealth: 0
+  healthBar: {fileID: 508807186}
 --- !u!1 &691947080
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,15 +4,20 @@ using System.Collections.Generic;
 public class EnemyWaypointMovement : MonoBehaviour
 {
     [Header("Waypoints")]
-    public List<Transform> waypoints; // Assign your waypoint transforms in the inspector
+    public List<Transform> waypoints; 
 
     [Header("Movement Settings")]
     public float moveSpeed = 3f;
     public float waypointReachedDistance = 0.1f;
     public bool loop = true;
+    [Header ("Combat Settings")]
+    public float damage = 10f;
+    public float attackCooldown = 1f;
+    public float knockbackForce = 15f;
 
     private Rigidbody2D rb;
-    public Transform visual;
+    private float lastAttackTime;
+    public transform visual;
     private int currentWaypointIndex = 0;
     private Vector2 movementDirection;
     
@@ -113,4 +118,38 @@ public class EnemyWaypointMovement : MonoBehaviour
         // Set new target waypoint
         SetTargetWaypoint(currentWaypointIndex);
     }
+
+
+void OnCollisionEnter2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Player"))
+    {
+        TryAttackPlayer(collision.gameObject);
+    }
 }
+
+void OnCollisionStay2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Player"))
+    {
+        TryAttackPlayer(collision.gameObject);
+    }
+}
+
+void TryAttackPlayer(GameObject player)
+{
+    // Verifica se pode atacar (cooldown)
+    if (Time.time >= lastAttackTime + attackCooldown)
+    {
+        PlayerHeath playerHeath = player.GetComponent<PlayerHeath>();
+        if (playerHeath != null)
+        {
+            // Calcula direção do knockback (do inimigo para o player)
+            Vector2 knockbackDirection = (player.transform.position - transform.position).normalized;
+
+            playerHeath.TakeDamage(damage, knockbackDirection, knockbackForce);
+            lastAttackTime = Time.time;
+        }
+    }
+}
+};

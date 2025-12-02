@@ -21,6 +21,12 @@ public class EnemyWaypointMovement : MonoBehaviour
     private int currentWaypointIndex = 0;
     private Vector2 movementDirection;
     
+    public void Jump(float jumpForce)
+{
+    Debug.Log("aQUI");
+    rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+}
+
 
     void Start()
     {
@@ -40,15 +46,15 @@ public class EnemyWaypointMovement : MonoBehaviour
     {
          if (rb.linearVelocity.x > 0.01f)
         {
-            visual.localScale = new Vector3(7, 7, 7);
+            visual.localScale = new Vector3(10, 10, 10);
         }
         else if(rb.linearVelocity.x < -0.01f)
         {
-            visual.localScale = new Vector3(-7, 7, 7);
+            visual.localScale = new Vector3(-10, 10, 10);
         }
         else
         {
-            visual.localScale = new Vector3(-7, 7, 7);
+            visual.localScale = new Vector3(-10, 10, 10);
         }
     }
     void FixedUpdate()
@@ -75,7 +81,7 @@ public class EnemyWaypointMovement : MonoBehaviour
         movementDirection = (targetPosition - (Vector2)transform.position).normalized;
 
         // Set linear velocity towards the current waypoint
-        rb.linearVelocity = movementDirection * moveSpeed;
+        rb.linearVelocity = new Vector2(movementDirection.x * moveSpeed, rb.linearVelocity. y);
     }
 
     void CheckIfWaypointReached()
@@ -149,6 +155,7 @@ void TryAttackPlayer(GameObject player)
             playerHeath.TakeDamage(damage, knockbackDirection, knockbackForce);
             lastAttackTime = Time.time;
         }
+        
     }
 }
 };

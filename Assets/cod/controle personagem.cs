@@ -27,15 +27,15 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("run", Mathf.Abs(movex) > 0f && isGrounded);
         if (rb2d.linearVelocity.x > 0.01f)
         {
-            visual.localScale = new Vector3(5, 5, 5);
+            visual.localScale = new Vector3(4, 4, 4);
         }
         else if(rb2d.linearVelocity.x < -0.01f)
         {
-            visual.localScale = new Vector3(-5, 5, 5);
+            visual.localScale = new Vector3(-4, 4, 4);
         }
         else
         {
-            visual.localScale = new Vector3(-5, 5, 5);
+            visual.localScale = new Vector3(-4, 4, 4);
         }
 
         if (Input.GetButtonDown("Jump") && isGrounded)

@@ -128,7 +128,7 @@ MonoBehaviour:
   loop: 1
   damage: 10
   attackCooldown: 1
-  knockbackForce: 15
+  knockbackForce: 1500
   visual: {fileID: 7415297885675624489}
 --- !u!1 &8808224620672975602
 GameObject:
